@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = 'path-to-your-firmware.hex'
-elf = 'path-to-your-firmware.elf'
+firmware = '.\Solar Efficiency\.pio\build\esp32-c3-devkitc-02\firmware.elf'
+elf = '.\Solar Efficiency\.pio\build\esp32-c3-devkitc-02\firmware.elf'
