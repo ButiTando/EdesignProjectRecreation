@@ -1,0 +1,22 @@
+{
+    "name": "lmt01",
+    "author": "Tando Mahlati",
+    "pins": [
+      "VCC",
+      "",
+      "GND",
+      "",
+      "OUT",
+      ""
+    ],
+    "controls": [
+      {
+        "id": "temp",
+        "label": "Temparaure",
+        "type": "range",
+        "min": -55,
+        "max": 150,
+        "step": 1
+      }
+    ]
+  }
