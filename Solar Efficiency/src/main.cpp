@@ -38,15 +38,24 @@ typedef enum State {
 } state_t;
 
 typedef struct EnvironmentMeasurementType{
-  
+  float analogTempSensor;
+  float digitalTempSensor;
+  float lightIntensity;
 } enMeas_t;
 
 typedef struct PVMeasureType{
-
+  float voltage;
+  float current;
+  float mppVoltage;
+  float mppCurrent;
+  float mppPower;
 } pvMeas_t;
 
 typedef struct DisplayDataType{
-
+  char currentScreen[16][16];
+  char display1[16][16];
+  char display2[16][16];
+  char display3[16][16];
 } dispData_t;
 // --- End variable --- //
 
