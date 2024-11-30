@@ -27,6 +27,16 @@ void lcdTask(void *pvParameters);
 TaskHandle_t lcdTaskHandle;
 // --- End RTOS handler --- //
 
+// --- Variables --- //
+typedef enum State {
+  TIME_REST,
+  CALIBRATION,
+  DESPLAY_REVOLVE,
+  ENVIRONMENT_MEASURE,
+  PV_MEASURE,
+  RTC_SET
+} state;
+// --- End variable --- //
 
 void setup() {
 
