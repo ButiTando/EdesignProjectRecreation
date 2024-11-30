@@ -35,7 +35,19 @@ typedef enum State {
   ENVIRONMENT_MEASURE,
   PV_MEASURE,
   RTC_SET
-} state;
+} state_t;
+
+typedef struct EnvironmentMeasurementType{
+  
+} enMeas_t;
+
+typedef struct PVMeasureType{
+
+} pvMeas_t;
+
+typedef struct DisplayDataType{
+
+} dispData_t;
 // --- End variable --- //
 
 void setup() {
@@ -45,7 +57,7 @@ void setup() {
   lcd2.backlight();
   lcd2.println("LCD active.");
   // --- End LCD initialisation --- //
-
+  
   // --- Button setup --- //
   pinMode(Button1, INPUT_PULLUP);
   pinMode(Button2, INPUT_PULLUP);
